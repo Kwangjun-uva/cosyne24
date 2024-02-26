@@ -10,7 +10,7 @@ Predictive coding (PC) is an influential theory in neuroscience, which gives ris
   Figure 1. Cortical column model of predictive coding. 
   
   Each cortical column consists of one infragranular microcircuit  for representations and two supragranular microcircuits for error-computing. The representation microcircuit contains pyramidal and PV neurons and 
-receives inputs from the lowlevel area. The two error microcircuits share intrinsic connectivity among four neuron types (pyramidal, PV, SST, and PV) but differ in extrinsic connectivity to compute positive or negative errors. The particular prediction error microcircuits were chosen after exhaustive computational search of possible combinations between the four neuron types. Each neuron behaved according to the firing rate model: 
+receives inputs from the low-level area. The two error microcircuits share intrinsic connectivity among four neuron types (pyramidal, PV, SST, and PV) but differ in extrinsic connectivity to compute positive or negative errors. The particular prediction error microcircuits were chosen after exhaustive computational search of possible combinations between the four neuron types. Each neuron behaved according to the firing rate model: 
 <p align="center">
 $$\tau  \dot{r} = −r_i + f(I_i)$$
   where $i$ = pyr, PV, SST, and/or VIP.
@@ -64,7 +64,7 @@ microcircuits and representation microcircuit.
 <p align="center">  
   Figure 5. Optogenetic experiment.
 
-  To investigate the role of all interneuron types, we simulated optogenetic silencing by setting neural activity of a given neuron type ($r_i = 0$ ). Silencing PV cells disrupted the excitatoryinhibitory balance in both prediction error microcircuits, which led to runaway excitations and suppression of oscillatory dynamics. Silencing SST cells resulted in over-predictions of sensory inputs and elevated response from negative prediction error microcircuits. Silencing VIP cells showed an opposite effect of underpredictions and elevated response from positive prediction error microcircuits. Our results suggest that SST/VIP optogenetic silencing can be a reliable procedure to experimentally identify positive and negative prediction errors circuits.
+  To investigate the role of all interneuron types, we simulated optogenetic silencing by setting neural activity of a given neuron type ($r_i = 0$ ). Silencing PV cells disrupted the excitatory-inhibitory balance in both prediction error microcircuits, which led to runaway excitations and suppression of oscillatory dynamics. Silencing SST cells resulted in over-predictions of sensory inputs and elevated response from negative prediction error microcircuits. Silencing VIP cells showed an opposite effect of under-predictions and elevated response from positive prediction error microcircuits. Our results suggest that SST/VIP optogenetic silencing can be a reliable procedure to experimentally identify positive and negative prediction errors circuits.
 </p>
 <br/>
 References: 
