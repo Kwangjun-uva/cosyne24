@@ -4,7 +4,7 @@ Predictive coding (PC) is an influential theory in neuroscience, which gives ris
 <br/> <br/> 
 
 <p align="center">
-  <img src="https://github.com/Kwangjun-uva/CoCo-PC/blob/master/architecture.png" width="400"/>
+  <img src="./src/architecture.png" width="400">
 </p>
 <p align="center">  
   Figure 1. Cortical column model of predictive coding. 
